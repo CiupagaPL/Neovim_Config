@@ -8,7 +8,7 @@ set relativenumber
 set cursorline
 set shiftwidth=2
 set expandtab
-set tabstop=4
+set tabstop=2
 set softtabstop=0
 set nobackup
 set nowrap
