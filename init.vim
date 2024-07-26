@@ -1,5 +1,4 @@
 " Made By CiupagaPL
-
 filetype on
 filetype plugin on
 filetype indent on
@@ -8,8 +7,9 @@ set number
 set relativenumber
 set cursorline
 set shiftwidth=2
-set tabstop=2
 set expandtab
+set tabstop=4
+set softtabstop=0
 set nobackup
 set nowrap
 set incsearch
@@ -23,7 +23,7 @@ set history=512
 set wildmenu
 set wildmode=list:longest
 set statusline=
-set statusline+=\ [^^]\ %F\ Neovim\ on\ Void\ Linux
+set statusline+=\ [^^]\ %F\ Nvim\ on\ Void\ Linux
 set statusline+=%=
 set statusline+=\ row:\ %l\ col:\ %c\ percent:\ %p%%
 set laststatus=2
